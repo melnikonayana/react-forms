@@ -1,5 +1,6 @@
 ### Статус сборки
 
+[![Build status](https://ci.appveyor.com/api/projects/status/kpdvdv22y5i2e76q?svg=true)](https://ci.appveyor.com/project/melnikonayana/react-forms)
 
 ### Ссылка на GitHub Pages
 
