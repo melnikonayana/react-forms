@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ColorView from './hex2rgb/ColorView';
+import Walks from './steps/Walks';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (<React.Fragment>
+    <div className="task-1">
+      <ColorView />
     </div>
-  );
+    <div className="task-2">
+      <Walks />
+    </div>
+  </React.Fragment>);
 }
 
 export default App;
